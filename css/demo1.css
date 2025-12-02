@@ -10,3 +10,53 @@ h5,h5{
     color: cornflowerblue;
      background-color: black;
 }
+.para{
+      border-style: solid;
+        border-color: blueviolet;
+        border-width: 5px;
+        border-top-style:solid;
+        text-align: justify;
+        border-radius: 20px;
+}
+.death{
+     border-style: solid;
+        border-color:chartreuse;
+        border-width: 5px;
+        border-top-style:solid;
+        text-align: justify;
+        
+        border-radius: 20px;
+}
+h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.demon{
+       
+        border-style: solid;
+        border-color:darkmagenta;
+        border-width: 5px;
+        border-top-style:solid;
+        text-align: justify;
+        border-radius: 20px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        margin-left: 80px;
+        margin-right: 150px;
+        padding: 20px 20px 20px 20px;
+
+}
+.sukuna{
+       
+        border-style: solid;
+        border-color:forestgreen;
+        border-width: 5px;
+        border-top-style:solid;
+        text-align: justify;
+        border-radius: 20px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        margin-left: 80px;
+        margin-right: 150px;
+        padding: 20px 20px 20px 20px;
+}
