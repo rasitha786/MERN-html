@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anime Registration Form</title>
+</head>
+<body>
+
+<h2>Anime Registration Form</h2>
+
+<form onsubmit="alert('Form Submitted Successfully!'); return false;" enctype="multipart/form-data">
+
+    <!-- Name -->
+    <p>
+        <label>Name:</label>
+        <input type="text" name="name" required>
+    </p>
+
+    <!-- Email -->
+    <p>
+        <label>Email:</label>
+        <input type="email" name="email" required>
+    </p>
+
+    <!-- Password -->
+    <p>
+        <label>Password:</label>
+        <input type="password" name="password" required>
+    </p>
+
+    <!-- Phone Number -->
+    <p>
+        <label>Phone Number:</label>
+        <input type="tel" name="phone" placeholder="1234567890" required>
+    </p>
+
+    <!-- Age -->
+    <p>
+        <label>Age:</label>
+        <input type="number" name="age" required>
+    </p>
+
+    <!-- Gender -->
+    <p>Gender:</p>
+    <p>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other
+    </p>
+
+    <!-- Website -->
+    <p>
+        <label>Website:</label>
+        <input type="url" name="website" placeholder="https://example.com">
+    </p>
+
+    <!-- File Upload -->
+    <p>
+        <label>Upload File:</label>
+        <input type="file" name="myfile">
+    </p>
+
+    <!-- Date -->
+    <p>
+        <label>Select Date:</label>
+        <input type="date" name="mydate" required>
+    </p>
+
+    <!-- Time -->
+    <p>
+        <label>Select Time:</label>
+        <input type="time" name="mytime" required>
+    </p>
+
+    <!-- Date & Time -->
+    <p>
+        <label>Select Date & Time:</label>
+        <input type="datetime-local" name="mydatetime">
+    </p>
+
+    <!-- Select Anime -->
+    <p>
+        <label>Select Anime:</label>
+        <select name="anime" required>
+            <option value="">--Select--</option>
+            <option>Demon Slayer</option>
+            <option>Jujutsu Kaisen</option>
+            <option>Attack on Titan</option>
+            <option>Naruto</option>
+            <option>One Piece</option>
+        </select>
+    </p>
+
+    <!-- Buttons -->
+    <p>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </p>
+
+</form>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>anime 1</th>
+    <th>anime 2</th>
+    <th>anime 3</th>
+    <th>anime 4</th>
+  </tr>
+  <tr>
+    <td>attack on taitan</td>
+    <td>one piece</td>
+    <td>jujutsu kaisen</td>
+    <td>demon slayer</td>
+  </tr>
+  <tr>
+    <td>eren</td>
+    <td>lufi</td>
+    <td>sukuna</td>
+    <td>muzan</td>
+  </tr>
+</table>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th colspan="2">Name</th>
+    <th>channel no</th>
+  </tr>
+  <tr>
+    <td>demon slayer</td>
+    <td>deth note</td>
+    <td>541</td>
+  </tr>
+  <tr>
+    <td>pokemon</td>
+    <td>bayblade</td>
+    <td>542</td>
+  </tr>
+</table>
+
+</body>
+</html>
