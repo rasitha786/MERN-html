@@ -60,3 +60,21 @@ h2{
         margin-right: 150px;
         padding: 20px 20px 20px 20px;
 }
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}

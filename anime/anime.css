@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4ff;
+}
+
+/* Header + nav */
+header {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Generic block for sections */
+.block {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Video links */
+.video-links a {
+    margin-right: 15px;
+}
+
+/* Text styles from your CSS */
+.one{
+    color: yellowgreen;
+    background-color: black;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.second{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.para{
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 5px;
+    text-align: justify;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.death{
+    border-style: solid;
+    border-color: chartreuse;
+    border-width: 5px;
+    text-align: justify;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.demon{
+    border-style: solid;
+    border-color: darkmagenta;
+    border-width: 5px;
+    text-align: justify;
+    border-radius: 20px;
+    margin: 30px 80px;
+    padding: 20px;
+}
+
+.sukuna{
+    border-style: solid;
+    border-color: forestgreen;
+    border-width: 5px;
+    text-align: justify;
+    border-radius: 20px;
+    margin: 30px 80px;
+    padding: 20px;
+}
+
+/* Links state */
+a:link {
+  color: red;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: blue;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}

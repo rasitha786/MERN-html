@@ -1,0 +1,92 @@
+.but {
+  background-color:rgb(255,0, 0);
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.but:hover{
+    opacity: 0.6;
+}
+div{
+   margin-top: 100px;
+   
+   border: solid black 5px;
+   width: 300px;
+   height: 200px;
+
+}
+h1{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    bottom: 30px;
+}
+.para
+{
+ position: sticky;
+  top: 0;
+  background-color: yellow;
+
+  font-size: 20px;
+}
+body {
+    background: #f2f2f2;
+}
+
+/* Common box style */
+.box {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.box1 {
+    background: red;
+    top: 60px;
+    left: 60px;
+    z-index: 1;        /* Bottom */
+}
+
+.box2 {
+    background: green;
+    top: 100px;
+    left: 100px;
+    z-index: 2;        /* Middle */
+}
+
+.box3 {
+    background: blue;
+    top: 140px;
+    left: 140px;
+    z-index: 3;        /* On top */
+}
+div {
+  background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+h3{
+     background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid;
+  overflow: visible;
+}
+h4{
+     background-color: coral;
+     margin-top: 200px;
+  width: 200px;
+  height: 65px;
+  border: 1px solid black;
+  overflow: auto;
+}
+

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Anime Web Page</title>
+    <link rel="stylesheet" href="anime.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Second Day Class – Anime Web Page</h1>
+        <nav>
+            <a href="https://www.google.com" target="_blank">Visit Google</a>
+            <a href="https://www.youtube.com" target="_blank">Visit YouTube</a>
+            <a href="#watch">Watch Anime</a>
+            <a href="#form">Anime Form</a>
+            <a href="#stories">Anime Stories</a>
+        </nav>
+    </header>
+
+    <!-- FAV CHARACTER SECTION -->
+    <section class="block">
+        <h2>My Favourite Anime Character</h2>
+        <img src="https://i.pinimg.com/736x/27/89/1e/27891ec98be98aea8f2816e7ea65dc69.jpg"
+             alt="Tokito Muichiro" width="250">
+        <p>Anime character name: <b>Tokito Muichiro</b></p>
+    </section>
+
+    <!-- WATCH ANIME SECTION -->
+    <section id="watch" class="block">
+        <h2>Click an Anime to Watch</h2>
+
+        <p>Select any anime below. The video will play here on this page 👇</p>
+
+        <div class="video-links">
+            <a href="https://www.youtube.com/embed/vVaqXLcNvIM" target="anime_video">Demon Slayer</a>
+            <a href="https://www.youtube.com/embed/5yb2N3pnztU" target="anime_video">Jujutsu Kaisen (JJK)</a>
+            <a href="https://www.youtube.com/embed/MGRm4IzK1SQ" target="anime_video">Attack on Titan (AOT)</a>
+        </div>
+
+        <iframe name="anime_video"
+                src="https://www.youtube.com/embed/VQGCKyvzIM4"
+                width="600" height="350"
+                allowfullscreen>
+        </iframe>
+    </section>
+
+    <!-- MARQUEE SECTION -->
+    <section class="block">
+        <marquee direction="left" scrollamount="10" behavior="scroll">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwEB24-d2jzp-GEnDe5aEeciyUpGOMVrFtxQ&s"
+                 width="80" alt="JJK Image">
+            <mark> 🎉 New anime movie has been updated 🎉 </mark>
+        </marquee>
+    </section>
+
+    <!-- ANIME REGISTRATION FORM -->
+    <section id="form" class="block">
+        <h2>Anime Registration Pass</h2>
+
+        <form>
+            <fieldset>
+                <legend><b>Fill Your Anime Details</b></legend>
+
+                <p>
+                    <label>Name: </label>
+                    <input type="text" name="name" required>
+                </p>
+
+                <p>
+                    <label>Age: </label>
+                    <input type="number" name="age" required>
+                </p>
+
+                <p>
+                    <label>Email: </label>
+                    <input type="email" name="email" required>
+                </p>
+
+                <p>Gender:</p>
+                <p>
+                    <input type="radio" name="gender" value="Male"> Male
+                    <input type="radio" name="gender" value="Female"> Female
+                    <input type="radio" name="gender" value="Other"> Other
+                </p>
+
+                <p>
+                    <label>Select Anime to Watch: </label>
+                    <select name="anime" required>
+                        <option value="">--Select--</option>
+                        <option>Demon Slayer</option>
+                        <option>Jujutsu Kaisen</option>
+                        <option>Attack on Titan</option>
+                        <option>Tokyo Revengers</option>
+                        <option>Haikyuu!!</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label>Favorite Character: </label>
+                    <input type="text" name="character">
+                </p>
+
+                <p>
+                    <label>Why do you like this anime?</label><br>
+                    <textarea name="reason" rows="3" cols="40"></textarea>
+                </p>
+
+                <p>
+                    <input type="submit" value="Get Anime Pass">
+                    <input type="reset" value="Clear">
+                </p>
+
+            </fieldset>
+        </form>
+    </section>
+
+    <!-- STORIES / PARAGRAPHS SECTION -->
+    <section id="stories" class="block">
+        <h2>Favourite Animes</h2>
+
+        <p class="one">ATTACK ON TITAN</p>
+        <p class="second">DEATH NOTE</p>
+
+        <p class="para">
+            Attack on Titan is an anime set in a world where humans live inside huge walls to stay safe from
+            giant man-eating creatures called Titans. The story follows Eren Yeager, who loses his mother during
+            a Titan attack and joins the military to fight them. Along with his friends Mikasa and Armin, he
+            enters the Survey Corps to explore outside the walls and uncover the truth about the Titans.
+        </p>
+
+        <p class="death">
+            Death Note is an anime about a brilliant student named Light Yagami who finds a mysterious notebook
+            that can kill anyone whose name is written in it. He decides to use the notebook to eliminate
+            criminals and create a perfect world, calling himself “Kira.” However, his actions attract the
+            attention of a world-famous detective known as L, leading to a tense battle of intelligence between
+            the two.
+        </p>
+
+        <h2>Chapter 1</h2>
+        <p class="demon">
+            <marquee direction="left" scrollamount="10" behavior="scroll">
+                <mark>DEMON SLAYER</mark>
+            </marquee>
+            Chapter 1 of Demon Slayer begins with Tanjiro Kamado, a kind boy who lives peacefully with his family
+            and sells charcoal to earn money. One day, when he returns home from town, he finds his entire family
+            killed by demons...
+        </p>
+
+        <h2>Chapter 2</h2>
+        <p class="sukuna">
+            <marquee direction="left" scrollamount="10" behavior="scroll">
+                <mark>JUJUTSU KAISEN</mark>
+            </marquee>
+            Chapter 2 of Jujutsu Kaisen continues with Yuji Itadori after he swallows the cursed object — one of
+            Sukuna’s fingers...
+        </p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>These are the things we learned today: HTML, CSS, forms, links, iframe, marquee & more – used to build this anime web page 💻✨</p>
+    </footer>
+
+</body>
+</html>
