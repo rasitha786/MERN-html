@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation bar */
+nav {
+  background: #2b5797;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  color: white;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+}
+
+/* Homepage hero section */
+.hero {
+  height: 90vh;
+  background: url('https://images.ctfassets.net/w5r1fvmogo3f/4VN7t0SD1XbEyy3KnJrHTy/7c4ebf24c325bf2f75fa07ab3b41f400/pokemon-banner_b40d63371a1542f8849329421436a7bf.jpeg?fm=webp&q=90&fit=scale&w=1920') center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:black;
+  text-shadow: 0 0 10px black;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.hero h2 {
+  font-size: 50px;
+}
+
+.hero p {
+  font-size: 20px;
+}
+
+/* Login Box */
+.login-container {
+  width: 350px;
+  margin: 80px auto;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0px 0px 10px #bbb;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid rgb(184, 184, 184);
+  border-radius: 5px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background: #2b5797;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background: #1e3f6e;
+}
+select {
+  width: 25%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid rgb(184,184,184);
+}
