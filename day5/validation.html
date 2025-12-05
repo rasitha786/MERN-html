@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #message {
+            color: rgb(255, 0, 0);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form id="myform">
+        <lable>Name:</lable>
+        <input type = "text" id="name" placeholder="Enter your name">
+        <br><br>
+        <lable>Email:
+        </lable>
+        <input type="text" id="email" placeholder="Enter your email">
+        <br><br>
+        <button type="submit">submit</button>
+    </form>
+    <p id="message"></p>
+    <script>
+    const form = document.getElementById('myform');
+    const message = document.getElementById('message');
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const name = document.getElementById('name').value.trim();
+        const email = document.getElementById('email').value.trim();
+        
+        if (name === '') {
+            message.style.color = "red";
+            message.textContent = "please fill the name field";
+        } else if (email === '') {
+            message.style.color = "red";
+            message.textContent = "please fill the email field";
+        } else if (!email.includes('@')) {
+            message.style.color = "red";
+            message.textContent = "please enter a valid email";
+        } else {
+            message.style.color = "green";
+            message.textContent = `Thank you, ${name}! We have received your email: ${email}.`;
+        }
+    });
+</script>
+
+
+</body>
+</html>
